@@ -3,7 +3,7 @@
 rclone version
 mkdir /.config
 mkdir /.config/rclone/
-wget "$CONFIG_IN_URL" -O /.rclone.conf
+curl "$CONFIG_IN_URL"> /home/rc.conf
 rclone listremotes
 rclone rcd --rc-web-gui --rc-no-auth --rc-addr=0.0.0.0:$PORT
-#rclone serve http $CLOUDNAME: --addr :$PORT --vfs-read-chunk-size 128M
+#rclone serve wedav $CLOUDNAME: --rc-addr=0.0.0.0:$PORT --config=/home/rc.conf --vfs-read-chunk-size 128M
