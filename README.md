@@ -5,7 +5,7 @@ Any Remote Cloud Index via HEROKU
 
 Heroku oneclick / Rapid deploy method available
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/HEROKU-RCLONE-SERVE-INDEX/random.html)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ###### Star my Repository & Support me
 
