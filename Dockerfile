@@ -12,6 +12,5 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
 
 COPY entrypoint.sh /entrypoint.sh
 #COPY developeranaz-rc.zip /developeranaz-rc.zip
-#COPY rclone.conf /.config/rclone/rclone.conf
 RUN chmod +x /entrypoint.sh
 CMD /entrypoint.sh
