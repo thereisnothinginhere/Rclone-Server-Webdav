@@ -1,4 +1,4 @@
-FROM developeranaz/rc-index:latest
+FROM erickyun/Rclone-Server-Webdav:latest
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
