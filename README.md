@@ -1,8 +1,6 @@
 # HEROKU-RCLONE-SERVE-INDEX
 Any Remote Cloud Index via HEROKU
 
-## Follow me for latest updates, v1.20 coming soon..
-
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -100,13 +98,6 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
   * Yandex Disk [:page_facing_up:](https://rclone.org/yandex/)
   * Zoho WorkDrive [:page_facing_up:](https://rclone.org/zoho/)
 
-## What's New
-* More cloud support available.
-* Config Fused to heroku deployment section.
-* No need to expose your rclone.conf file
-# Follow me for latest updates, v1.20 coming soon..
-## Upcoming Updates
-* Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
-* Encryption Username & Password (under beta stage,may not work in next version)
-* Better Dark UI with CSS & JS - looking for contributers to Make new UI -Best UI designers contact me at issues 
- 
+
+### Original Repo: https://github.com/developeranaz/RCLONE-SERVE-INDEX
+
