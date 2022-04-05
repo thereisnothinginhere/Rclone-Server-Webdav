@@ -5,5 +5,5 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
 COPY rcindex /usr/bin/rcindex
-RUN chmod +x /usr/bin/rcindex
+RUN chmod +x /usr/bin/rcindex && \
     curl "$CONFIG_IN_URL"> /home/rc.conf; rclone serve webdav $CLOUDNAME: --rc-addr=0.0.0.0:$PORT --config=/home/rc.conf
