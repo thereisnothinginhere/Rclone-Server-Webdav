@@ -13,7 +13,7 @@ Heroku oneclick / Rapid deploy method available
 * Star my repository
 * Create a [Heroku](https://dashboard.heroku.com/login) Free account
 * Log in to Heroku in any browser
-* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/HEROKU-RCLONE-SERVE-INDEX/random.html) and deploy app
+* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) and deploy app
 ### Step 2 (setting Config Vars)
 #### CONFIG_FILE_IN_URL
 
