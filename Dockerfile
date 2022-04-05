@@ -1,4 +1,4 @@
-FROM nginx:1.19.6
+FROM developeranaz/rc-index:latest
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
@@ -11,6 +11,5 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
     chmod 755 /usr/bin/rclone
 
 COPY entrypoint.sh /entrypoint.sh
-#COPY developeranaz-rc.zip /developeranaz-rc.zip
 RUN chmod +x /entrypoint.sh
 CMD /entrypoint.sh
