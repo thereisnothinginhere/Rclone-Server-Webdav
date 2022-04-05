@@ -12,6 +12,19 @@
      "CLOUDNAME": {
       "description": "Please enter your Cloudname/Remote that you assigned in rclone.conf file.See Readme https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX",
       "value": ""
+    },
+     "indexauthentication": {
+      "description": "Index authentication (true / false)",
+      "value": "false"
+    },
+     "INDEXusername": {
+      "description": "Index username (optional)",
+      "value": "mystrongindexuser"
+    },
+     "INDEXpassword": {
+      "description": "Index Password (optional)",
+      "value": "mystrongindexpass"
+
     }
 
 
