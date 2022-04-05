@@ -1,4 +1,3 @@
-FROM erickyun/rclone-server-webdav:latest
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
